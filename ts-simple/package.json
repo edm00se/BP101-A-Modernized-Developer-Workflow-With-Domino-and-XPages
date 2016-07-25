@@ -1,0 +1,20 @@
+{
+  "name": "ts-simple",
+  "version": "1.0.0",
+  "description": "a simple TypeScript demo",
+  "main": "index.hml",
+  "scripts": {
+    "start": "concurrently --kill-others 'tsc -w' 'npm run copy' 'npm run serve'",
+    "serve": "lite-server",
+    "clean": "rm -rf dist",
+    "copy": "cp src/index.html dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric McCormick (https://ericmccormick.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^1.8.10"
+  }
+}
