@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<p>
+		<h1>Generator-XSP</h1><br />
+		<h4>by <a href="https://edm00se.io/">Eric McCormick</a></h4>
+		<br />
+	</p>
+	<p>
+		This is a boilerplate application created by
+		<a href="https://github.com/edm00se/generator-xsp">generator-xsp</a> for yeoman. Please consult the ReadMe there for more information.
+	</p>
+	<p>
+		The generator builds a starter On Disk Project (ODP) from which this application (NSF) can be built. The NSF is a stock app, with virtually no content, save this XPage, for reference.
+	</p>
+	<p>
+		Out of the box, you should be prompted for:
+		<ul>
+			<li>an application name (which will drive the app name and file name</li>
+		</ul>
+		<br />
+		Over time, I aim to include scaffolding options for:
+		<ul>
+			<li>XPages</li>
+			<li>Custom Controls</li>
+			<li>a default app Theme inclusion</li>
+			<li>addition of a starter CSS and JS asset to the app Theme</li>
+			<li>other "goodies", such as inclusion of a JSFUtil class</li>
+		</ul>
+		<br />
+		The "want list"/goodies beyond that (so far):
+		<ul>
+			<li>config of common XSP Properties (xsp.properties file interaciton)</li>
+			<li>config to allow enabling of the ExtLibUtil (or provision of other common <a href="https://openntf.org/main.nsf/project.xsp?r=project/XPages%20Extension%20Library">ExtLib stuff</a>)</li>
+			<li>specify a Theme that the app Theme will extend (e.g.- Bootstrap 3)</li>
+			<li>Java package and class creation</li>
+			<li>managed bean configuration</li>
+		</ul>
+		<br />
+		The "would be nice list", beyond those:
+		<ul>
+			<li>Forms</li>
+			<li>Views</li>
+			<li>Agents</li>
+		</ul>
+	</p>
+</xp:view>

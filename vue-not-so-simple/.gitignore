@@ -1,6 +1,8 @@
 .DS_Store
 node_modules/
 dist/
+ODP/WebContent/*
+!ODP/WebContent/WEB-INF/
 npm-debug.log
 selenium-debug.log
 test/unit/coverage

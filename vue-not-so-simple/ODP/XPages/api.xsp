@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex">
+	<xe:restService
+		id="restService1"
+		pathInfo="junkDrawer"
+		state="false">
+		<xe:this.service>
+			<xe:customRestService
+				contentType="application/json"
+				serviceBean="app.junk.DrawerServiceBean">
+			</xe:customRestService>
+		</xe:this.service>
+	</xe:restService>
+	<div>
+		<h3>Available Routes:</h3>
+		<ul>
+			<li>
+				<xp:link
+					escape="true"
+					text="/junkDrawer"
+					id="link1"
+					value="/api.xsp/junkDrawer">
+				</xp:link>
+			</li>
+		</ul>
+	</div>
+</xp:view>
