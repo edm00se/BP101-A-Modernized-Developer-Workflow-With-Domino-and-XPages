@@ -6,6 +6,7 @@ var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = process.env.NODE_ENV === 'testing'
   ? require('./webpack.prod.conf')
   : require('./webpack.dev.conf')
+var DashboardPlugin = require('webpack-dashboard/plugin')
 
 // default port where dev server listens for incoming traffic
 var port = process.env.PORT || config.dev.port
@@ -32,6 +33,8 @@ compiler.plugin('compilation', function (compilation) {
     cb()
   })
 })
+
+compiler.apply(new DashboardPlugin())
 
 // proxy api requests
 Object.keys(proxyTable).forEach(function (context) {

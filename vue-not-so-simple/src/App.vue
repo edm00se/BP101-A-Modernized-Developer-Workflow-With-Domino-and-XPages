@@ -2,7 +2,7 @@
   <div id="app" class="container">
     <img class="logo center-block" src="./assets/logo.png">
     <hello></hello>
-    <div class="row">
+    <!-- <div class="row">
       <p class="col-xs-12">
         Welcome to your Vue.js app!
       </p>
@@ -20,7 +20,7 @@
         <a href="https://github.com/vuejs/vue-router/" target="_blank">vue-router</a> for routing and
         <a href="https://github.com/vuejs/vuex/" target="_blank">vuex</a> for state management.
       </p>
-    </div>
+    </div> -->
     <junk></junk>
   </div>
 </template>
