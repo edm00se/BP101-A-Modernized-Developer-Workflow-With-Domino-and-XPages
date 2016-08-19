@@ -120,8 +120,12 @@ public class DrawerServiceBean extends CustomServiceBean {
 			tmpJson = JsonGenerator.toJson(factory, myResp);
 		} catch (JsonException e) {
 			e.printStackTrace();
+			err = true;
+			tmpJson = "{error: true, errorMessage: \""+e.toString()+"\"}";
 		} catch (IOException e) {
 			e.printStackTrace();
+			err = true;
+			tmpJson = "{\"error\": true, errorMessage: \""+e.toString()+"\"}";
 		}
 		out.print(tmpJson);
 	}
