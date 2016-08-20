@@ -18,7 +18,7 @@ Development dependencies are, ultimately, a Node installation of 4.x LTS or grea
 
 ## MWLUG Session
 
-Come see the session at MWLUG 2016 at the Four Seasons in Austin, TX with further topics and exploration by [Eric McCormick](https://ericmccormick.io) (@edm00se).
+Come see the session at MWLUG 2016 at the Four Seasons in Austin, TX with further topics and exploration by [Eric McCormick](https://ericmccormick.io) ([@edm00se](https://github.com/edm00se)).
 
 ## Slides
 
