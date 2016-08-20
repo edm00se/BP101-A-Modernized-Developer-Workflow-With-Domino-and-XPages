@@ -22,7 +22,7 @@ Come see the session at MWLUG 2016 at the Four Seasons in Austin, TX with furthe
 
 ## Slides
 
-Located in the `docs/` directory in keynote (`.key`), PowerPoint (`.pptx`), and PDF formats; as a static page on [the GitHub Pages site for this repository](), or [on SlideShare](http://www.slideshare.net/edm00se/bp101-a-modernized-workflow-w-dominoxpages).
+Located in the `docs/` directory in keynote (`.key`), PowerPoint (`.pptx`), and PDF formats; as a static page on [the GitHub Pages site for this repository](https://edm00se.github.io/BP101-A-Modernized-Developer-Workflow-With-Domino-and-XPages/), or [on SlideShare](http://www.slideshare.net/edm00se/bp101-a-modernized-workflow-w-dominoxpages).
 
 ## Credits
 
