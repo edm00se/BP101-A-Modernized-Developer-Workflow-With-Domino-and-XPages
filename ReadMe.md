@@ -8,7 +8,7 @@ Clone the repository with git:
 
 `git clone https://github.com/edm00se/BP101-A-Modernized-Developer-Workflow-With-Domino-and-XPages.git`
 
-Development dependencies are, ultimately, a Node installation of 4.x LTS or greater. All other dependencies are handled via npm, within each subdirectory of the project.
+Development dependencies are, ultimately, a [Node installation of 4.x LTS or greater](https://nodejs.org/en/) (and `npm`, which generally comes with `node`). All other dependencies are handled via npm, within each subdirectory of the project.
 
 ## Example Usage
 
