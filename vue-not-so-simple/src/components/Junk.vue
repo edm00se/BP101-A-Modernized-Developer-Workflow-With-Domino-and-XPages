@@ -24,11 +24,17 @@ export default {
     }
   },
   ready () {
-    this.$http({url: 'api.xsp/junkDrawer', method: 'GET'}).then((response) => {
-      // console.log(response)
-      this.$set('junkAr', (response.data.data || response.body))
+    this.$http({url: 'api.xsp/junkDrawer', method: 'GET'}).then(response => {
+      // console.log(typeof response, response)
+      var resp = null
+      if (typeof response.data === 'string') {
+        resp = JSON.parse(response.data)
+      } else {
+        resp = response.data
+      }
+      this.$set('junkAr', (resp.data || resp.body))
       this.loading = false
-    }, function (response) {
+    }, response => {
       this.$set('junkAr', null)
       console.error(response)
     })
